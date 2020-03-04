@@ -5,6 +5,7 @@ import java.util.Comparator;
 public class Main {
 
     public static void main(String[] args) {
+
         NewArrayList<Integer> list = new NewArrayList<>();
 
         System.out.println("Array contains (after creation): " + list);
@@ -15,6 +16,7 @@ public class Main {
         list.add(7);
         list.add(0);
 
+        System.out.println("Size of the array is: " + list.size());
         System.out.println("Array contains (after add() method): " + list);
         System.out.println("Array contains number 9: " + list.contains(9));
         System.out.println("Array contains number 5: " + list.contains(5));
